@@ -1,0 +1,9 @@
+------------------to create-------------------------
+ssh-keygen -t ed25519 -C "your_email@example.com"
+--------------to copy content----------------
+cat ~/.ssh/id_ed25519.pub | clip
+--------------to check connection----------
+ssh -T git@github.com
+-------------------------------------------------------------------
+
+add .pub content in github ssh 
